@@ -1,13 +1,17 @@
 "use client";
 
 import React from 'react';
-import RedirectToLogin from './redirigir'; // Default import, not named
+import { MantineProvider } from '@mantine/core';
+import RedirectToLogin from './redirigir';
 
 const LoginPage = () => {
   return (
-    <div>
-      <RedirectToLogin />
-    </div>
+    <MantineProvider>
+      <div>
+        <RedirectToLogin />
+        {/* Other components */}
+      </div>
+    </MantineProvider>
   );
 };
 

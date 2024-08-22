@@ -6,9 +6,8 @@ import { AuthenticationTitle } from './AuthenticationTitle';
 
 const LoginPage = () => {
   return (
-    <div>
-      <AuthenticationTitle />
-    </div>
+      <div>      <AuthenticationTitle />
+      </div>
   );
 };
 

@@ -1,13 +1,15 @@
+// login/page.tsx
 "use client";
 
 import React from 'react';
-import RedirectToLogin from './redirigir'; // Default import, not named
+import { Formulario } from './FormularioInputs';
 
 const LoginPage = () => {
   return (
     <div>
-      <RedirectToLogin />
+      <Formulario />
     </div>
+    
   );
 };
 

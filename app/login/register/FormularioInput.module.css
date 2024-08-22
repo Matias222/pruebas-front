@@ -1,0 +1,37 @@
+/* Formulario.module.css */
+
+.container {
+  max-width: 420px;
+  margin: 40px auto;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Greycliff CF', sans-serif;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.formBox {
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+  margin-bottom: 20px;
+}
+
+.buttonGroup {
+  margin-top: 25px;
+  text-align: right;
+}
+
+.label {
+  display: block;
+  margin-bottom: -8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #212529; /* Assuming the default label color */
+}
